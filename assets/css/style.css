@@ -1,26 +1,4 @@
 @charset "UTF-8";
-/*========	Table of Css Content ==========*/
-/* Typography */
-/* Normalize  */
-/* Global style */
-/* Breadcrumb Area Start */
-/* Main Menu Area Start */
-/* Home area Start */
-/* About area Start */
-/* Counter Area Start */
-/* My service Start */
-/* Resume Area Start*/
-/* My Client Area Start */
-/*Portfolio Area Strat */
-/* Testimonial Start */
-/* Pricing Area Start */
-/* Blog Area Start */
-/* Contact Area Start */
-/* 
-=============================
- */
-/* Typography */
-
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600|Poppins:400,500,600,700&display=swap");
 /* Normalize  */
@@ -896,7 +874,7 @@ select:focus {
 .about-section .about .about-content .personal-info ul li span label {
   color: #555;
   font-weight: 600;
-  min-width: 100px;
+  min-width: 70px;
 }
 .about-section .about .about-image {
   overflow: hidden;
@@ -1013,6 +991,7 @@ select:focus {
 
 .service-wrapper .single-feature .img-lg{
   width: 100%;
+  border-radius: 8px;
 }
 
 .service-wrapper .single-feature .title {
@@ -2465,3 +2444,80 @@ textarea.form-control {
 }
 
 
+
+  /*--------------- MultiColor ---------------*/
+
+  /* multicolor start 4285f4 */
+
+
+.home-section .particals .circles{
+  background: #4286f45e;
+}
+
+.side-menu #mainmenu-area li a i,
+.base-btn1 i,
+.section-heading .title i,
+.single-counter .icon i,
+.service-wrapper .single-feature .icon i,
+.resume-wrapper .resume-box .knowledge-list .single-knowledge p::before,
+.info.service-category .service-list li .service i,
+.gallery-item-content .item-thumbnail .content-overlay .content .links a i,
+.single-blog-details .content ul li p i,
+.side-menu-wrapper .menu-toogle-icon i
+{
+  color: #4285f4!important;
+}
+.resume-wrapper .resume-box .education-list .single-education .year,
+.resume-wrapper .resume-box .education-list .single-education::before,
+.resume-wrapper .resume-box .education-list .single-education::after,
+.categori-widget .cat-list li a .count,
+.idgallery .slidPrv4.slick-arrow,
+.idgallery .slidNext4.slick-arrow
+{
+  background: #4285f4;
+}
+.progress-bar,
+.resume-wrapper .resume-box .skill-list .single-skill .progress .progress-bar,
+.resume-wrapper .resume-box .skill-list2 .single-skill2 .circle-progress .right,
+.resume-wrapper .resume-box .skill-list2 .single-skill2 .circle-progress .rotate
+{
+  background-color: #4285f4!important;
+}
+.resume-wrapper .resume-box .education-list .single-education .year::after {
+  border-top: 10px solid #4285f4;
+}
+.resume-wrapper .resume-box .education-list .single-education {
+  border-left: 3px solid #4285f4;
+}
+.single-review .stars i{
+  color: #ffcc00!important;
+}
+.single-blog-details .content blockquote {
+  border-left: 4px solid #4285f4;
+}
+
+.loader-1 .loader-outter {
+  position: absolute;
+  border: 4px solid #4285f4;
+  border-left-color: transparent;
+  border-bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-animation: loader-1-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+  animation: loader-1-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+}
+
+.loader-1 .loader-inner {
+  position: absolute;
+  border: 4px solid #4285f4;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 20px);
+  top: calc(50% - 20px);
+  border-right: 0;
+  border-top-color: transparent;
+  -webkit-animation: loader-1-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+  animation: loader-1-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+}
