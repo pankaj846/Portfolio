@@ -2395,8 +2395,15 @@ textarea.form-control {
 
 }
 
-@media  (max-width: 767px) {
- 
+@media  (min-width: 767px) {
+  .made-with{
+    position: relative; 
+    left: 120px;
+  }
+  .made-with p{ font-size: 30px !important;}
+  .made-with p img{ width: 30px !important;}
+
+  #contact .footer img{width: 45px !important;}
 }
 
 
