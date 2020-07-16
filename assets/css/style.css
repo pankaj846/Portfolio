@@ -8,6 +8,12 @@ html {
   -ms-text-size-adjust: 100%;
   overflow-x: hidden;
 }
+.hotline-whatsapp-wrap {
+	position: fixed;
+	bottom: 22px;
+	left: 20px;
+	z-index: 999999;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
