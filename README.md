@@ -1,5 +1,5 @@
 # My Portfolio 
-[Check out my portfolio here.](https://github.com/pankaj846/portfolio)
+[Check out my portfolio here.](https://pankaj846.github.io/portfolio/)
 
 ## Description
 My personal website that includes all the skills i have and all the past projects that i made!
